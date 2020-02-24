@@ -109,6 +109,12 @@ a {
     font-family: Montserrat;
     margin: 95px auto auto;
 }
+@media (max-width: 992px) {
+    .content {
+        width: 100%;
+        padding: 0px 10px;
+    } 
+}
 
 .content__title {
     font-family: Montserrat;
@@ -426,12 +432,6 @@ ul li {
 
 
 
-@media (max-width: 992px) {
-    .content {
-        width: 100%;
-        padding: 0px 10px;
-    } 
-}
 
 @media (max-width: 768px) {
     .header__title {
