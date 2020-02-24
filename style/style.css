@@ -30,6 +30,13 @@
         width: 100%;
     }
 } 
+@media (max-width: 320px) {
+    .header {
+        background: url(..//img/Background-mob.png);
+        height: 540px;
+        background-size: cover;
+    }
+} 
 
 
 .header__navigation {
